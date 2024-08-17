@@ -1,12 +1,14 @@
 pkgbase = fw-ectool-git
 	pkgdesc = ectool for the Framework laptop.
-	pkgver = r2760.3ebe7b8
+	pkgver = r2763.0ac6155
 	pkgrel = 1
-	url = https://www.howett.net/posts/2021-12-framework-ec/#software
+	url = https://gitlab.howett.net/DHowett/ectool
 	arch = x86_64
-	license = BSD
+	license = BSD-3-Clause
 	makedepends = inetutils
 	makedepends = git
+	makedepends = cmake
+	depends = libftdi
 	provides = ectool
 	source = git+https://gitlab.howett.net/DHowett/ectool.git
 	sha1sums = SKIP
