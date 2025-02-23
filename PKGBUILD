@@ -6,7 +6,7 @@
 _orig_pkgname=devtools
 pkgname=devtools-doas
 epoch=1
-pkgver=1.2.1
+pkgver=1.3.1
 pkgrel=1
 pkgdesc='Tools for Arch Linux package maintainers (patched for opendoas)'
 arch=('any')
@@ -23,7 +23,9 @@ depends=(
   expac
   fakeroot
   findutils
+  glow
   grep
+  gum
   jq
   openssh
   parallel
@@ -63,10 +65,10 @@ validpgpkeys=(
   'E240B57E2C4630BA768E2F26FC1B547C8D8172C8' # Levente Polyak <anthraxx@archlinux.org>
   'F00B96D15228013FFC9C9D0393B11DAA4C197E3D' # Christian Heusel (gromit packager key) <gromit@archlinux.org>
 )
-sha256sums=('a484d13823c8eb5246ad97325f60c9fcddaacb698d685793c018272eeb440f25'
+sha256sums=('26fbea00ec92ab232b54a5e4ff0ddf64dda54bcaab32a4820e313a534df63ac1'
             'SKIP'
             'SKIP')
-b2sums=('8a864388619c40b8093b1af184aa157c1fc12ae1788f7d2b38f7b9f36d2fabbe0f2afdf1e300ca4d760fe4c8e9de5305d9bde4b5d3825f19c3845b13ef5f6f63'
+b2sums=('861397ca10463bcfed75c50b978a2fc83af930c0f37f90a981d97b31c9f57593bf4e7a45cbccefcf03f0476f8ca8525ecdc92331a51a0138d11932704145be7d'
         'SKIP'
         'SKIP')
 install=devtools.install
