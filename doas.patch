@@ -1,6 +1,6 @@
-diff -ura --color devtools-1.3.1/src/lib/archroot.sh devtools-1.3.1-patched/src/lib/archroot.sh
---- devtools-1.3.1/src/lib/archroot.sh	2024-06-18 08:14:22.000000000 -0400
-+++ devtools-1.3.1-patched/src/lib/archroot.sh	2024-08-04 17:20:27.581342162 -0400
+diff -ura --color devtools-1.3.2/src/lib/archroot.sh devtools-1.3.2-patched/src/lib/archroot.sh
+--- devtools-1.3.2/src/lib/archroot.sh	2024-06-18 08:14:22.000000000 -0400
++++ devtools-1.3.2-patched/src/lib/archroot.sh	2024-08-04 17:20:27.581342162 -0400
 @@ -14,11 +14,26 @@
  	shift
  	local orig_argv=("$@")
@@ -31,9 +31,9 @@ diff -ura --color devtools-1.3.1/src/lib/archroot.sh devtools-1.3.1-patched/src/
  	fi
  }
  
-diff -ura --color devtools-1.3.1/src/lib/build/build.sh devtools-1.3.1-patched/src/lib/build/build.sh
---- devtools-1.3.1/src/lib/build/build.sh	2024-06-18 08:14:22.000000000 -0400
-+++ devtools-1.3.1-patched/src/lib/build/build.sh	2024-08-24 12:11:53.730290448 -0400
+diff -ura --color devtools-1.3.2/src/lib/build/build.sh devtools-1.3.2-patched/src/lib/build/build.sh
+--- devtools-1.3.2/src/lib/build/build.sh	2024-06-18 08:14:22.000000000 -0400
++++ devtools-1.3.2-patched/src/lib/build/build.sh	2024-08-24 12:11:53.730290448 -0400
 @@ -514,7 +514,7 @@
  	# install all collected packages to the host system
  	if (( ${#INSTALL_HOST_PACKAGES[@]} )); then
@@ -43,9 +43,9 @@ diff -ura --color devtools-1.3.1/src/lib/build/build.sh devtools-1.3.1-patched/s
  	fi
  
  	# update the binary package repo db as last action
-diff -ura --color devtools-1.3.1/src/makechrootpkg.in devtools-1.3.1-patched/src/makechrootpkg.in
---- devtools-1.3.1/src/makechrootpkg.in	2024-06-18 08:14:22.000000000 -0400
-+++ devtools-1.3.1-patched/src/makechrootpkg.in	2024-08-04 17:20:27.581342162 -0400
+diff -ura --color devtools-1.3.2/src/makechrootpkg.in devtools-1.3.2-patched/src/makechrootpkg.in
+--- devtools-1.3.2/src/makechrootpkg.in	2024-06-18 08:14:22.000000000 -0400
++++ devtools-1.3.2-patched/src/makechrootpkg.in	2024-08-04 17:20:27.581342162 -0400
 @@ -252,8 +252,11 @@
  	chown "$makepkg_user:" "$WORKDIR"
  
