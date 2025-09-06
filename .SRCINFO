@@ -1,5 +1,5 @@
 pkgbase = fw-ectool-git
-	pkgdesc = ectool for the Framework laptop.
+	pkgdesc = ectool for the Framework laptop
 	pkgver = r2763.0ac6155
 	pkgrel = 1
 	url = https://gitlab.howett.net/DHowett/ectool
@@ -8,9 +8,12 @@ pkgbase = fw-ectool-git
 	makedepends = inetutils
 	makedepends = git
 	makedepends = cmake
+	depends = glibc
+	depends = gcc-libs
 	depends = libftdi
+	depends = libusb
 	provides = ectool
-	source = git+https://gitlab.howett.net/DHowett/ectool.git
+	source = git+https://gitlab.howett.net/DHowett/ectool
 	sha1sums = SKIP
 
 pkgname = fw-ectool-git
