@@ -1,10 +1,11 @@
 pkgbase = rofi-themes-collection-git
 	pkgdesc = Themes Collection for Rofi Launcher
-	pkgver = 0.0.1
+	pkgver = r27.ec731ce
 	pkgrel = 1
+	epoch = 1
 	url = https://github.com/newmanls/rofi-themes-collection
 	arch = any
-	license = GPL3
+	license = GPL-3.0-only
 	makedepends = git
 	depends = rofi
 	source = git+https://github.com/newmanls/rofi-themes-collection
