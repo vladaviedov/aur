@@ -1,0 +1,13 @@
+*
+!.gitignore
+
+# Core files
+!PKGBUILD
+!.SRCINFO
+!doas.patch
+
+# Licensing
+!LICENSE
+!LICENSES/
+!LICENSES/*
+!REUSE.toml
