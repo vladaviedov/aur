@@ -1,0 +1,14 @@
+*
+!.gitignore
+
+# Core files
+!PKGBUILD
+!.SRCINFO
+!focalboard.install
+!focalboard.service
+
+# Licensing
+!LICENSE
+!LICENSES/
+!LICENSES/*
+!REUSE.toml
