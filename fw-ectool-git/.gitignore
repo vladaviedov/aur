@@ -1,5 +1,12 @@
 *
+!.gitignore
+
+# Core files
 !PKGBUILD
 !.SRCINFO
+
+# Licensing
 !LICENSE
-!.gitignore
+!LICENSES/
+!LICENSES/*
+!REUSE.toml
