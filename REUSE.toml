@@ -1,0 +1,9 @@
+# Gets REUSE to shut up about the README
+version = 1
+
+[[annotations]]
+path = [
+    "README.md",
+]
+SPDX-FileCopyrightText = "Vladyslav Aviedov <vladaviedov at protonmail dot com>"
+SPDX-License-Identifier = "0BSD"
